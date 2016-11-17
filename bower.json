@@ -1,0 +1,36 @@
+{
+  "name": "workspace",
+  "description": "STARTER-PACK Gulp+Bower+Sass+Browser-sync+Wiredep",
+  "main": "index.js",
+  "authors": [
+    "Nicat Bayramov <bayramovn@hotmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/nbayramov/starterpack",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "font-awsome#^4.6.3",
+    "jquery": "^3.1.1"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.min.css",
+        "dist/js/bootstrap.min.js"
+      ]
+    },
+    "masonry": {
+      "main": [
+        "./dist/masonry.pkgd.js"
+      ],
+      "dependencies": {}
+    }
+  }
+}
