@@ -101,7 +101,7 @@
             img.setAttribute('src', 'images/s' + missed + '.jpg');
         }
         if (isMissed()){
-            fail.play();
+            // fail.play();
             tryAgain('Przegrałeś!', pass);
         } else if (isWinner()){
             win.play();
