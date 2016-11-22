@@ -17,7 +17,7 @@
     var no = document.querySelector('#no');
     var yes = document.querySelector('#yes');
     var win = document.querySelector('#win');
-    var woop = document.querySelector('#woop');
+    var fail = document.querySelector('#woop');
 
     var missed = 0;
 
@@ -101,7 +101,7 @@
             img.setAttribute('src', 'images/s' + missed + '.jpg');
         }
         if (isMissed()){
-            woop.play();
+            fail.play();
             tryAgain('Przegrałeś!', pass);
         } else if (isWinner()){
             win.play();
