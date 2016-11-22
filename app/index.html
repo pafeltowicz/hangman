@@ -1,35 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="utf-8">
-    <meta https-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
     <link rel="shortcut icon" href="images/favicon.png">
     <title>StarterPack</title>
-    <!-- bower:css -->
-    <!-- endbower -->
     <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 </head>
 <body>
 
-<h1>Starter Pack by veranoo</h1>
 
+<div class="container">
 
-<!-- Preloader -->
-<div id="preloader">
-    <div id="loading">Trwa ładowanie...</div>
+    <div class="row">
+        <div id="board" class="col-xs-12"></div>
+        <div id="image" class="col-md-6">
+            <img src="images/s0.jpg" class="img-fluid" alt="">
+        </div>
+        <div id="alphabet" class="col-md-6"></div>
+    </div>
+
 </div>
 
+<audio id="yes" src="assets/yes.wav" type="audio/wav">
+</audio>
 
-<!-- bower:js -->
-<script src="libs/jquery/dist/jquery.js"></script>
-<!-- endbower -->
+<audio id="no" src="assets/no.wav" type="audio/wav">
+</audio>
+
+<audio id="win" src="assets/win.wav" type="audio/wav">
+</audio>
+
+<audio id="woop" src="assets/woop.wav" type="audio/wav">
+</audio>
+
+
 <script type="text/javascript" src="js/main.js"></script>
 
-
-<script>
-
-</script>
 
 </body>
 </html>
