@@ -17,7 +17,8 @@
     var no = document.querySelector('#no');
     var yes = document.querySelector('#yes');
     var win = document.querySelector('#win');
-    var woop = new Audio('../assets/woop.wav');
+    var woop = document.querySelector('#woop');
+
     var missed = 0;
 
     var hidePass = '';
